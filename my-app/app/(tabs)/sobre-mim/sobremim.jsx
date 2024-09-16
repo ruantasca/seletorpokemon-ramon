@@ -8,38 +8,13 @@ export default function Lista() {
       <Text style={styles.title}>Bem-vindo à página inicial</Text>
       <View style={styles.buttonsContainer}>
         <Pressable>
-          <Link href="./Banco/Banco" style={styles.button}>
-            Ir para Registro
+          <Link href="./viagens/viagens" style={styles.button}>
+            Ir para viagens
           </Link>
         </Pressable>
         <Pressable>
-          <Link href="./calculadora/calculadora" style={styles.button}>
-            Ir para calculadora
-          </Link>
-        </Pressable>
-        <Pressable>
-          <Link href="./list/flatlist" style={styles.button}>
-            Ir para lista
-          </Link>
-        </Pressable>
-        <Pressable>
-          <Link href="./Picker/Picker" style={styles.button}>
-            Ir para Picker
-          </Link>
-        </Pressable>
-        <Pressable>
-          <Link href="./registro/registro" style={styles.button}>
-            Ir para registroPicker
-          </Link>
-        </Pressable>
-        <Pressable>
-          <Link href="./splashscreen/splashscreen" style={styles.button}>
-            Ir para splashscreen
-          </Link>
-        </Pressable>
-        <Pressable>
-          <Link href="./sobre-mim/sobremim" style={styles.button}>
-            Ir para Sobre mim 
+          <Link href="./filmes/filmes" style={styles.button}>
+            Ir para filmes
           </Link>
         </Pressable>
       </View>
